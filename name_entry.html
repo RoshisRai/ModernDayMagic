@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Name Entry | Modern Day Magic</title>
+    <link rel="shortcut icon" href="C:/Users/Admin/Pictures/web/awesome-title.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='./css/styles_name_entry.css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav id="awesome">
+		<div class="nav-logo">
+			<h2 class="nav-logo-text">MODERN DAY<span id="second-one">MAGIC.</span></h2>
+		</div>
+		<div class="nav-a">
+			<a href="./index.html" class="nav-a-child" id="nav-a-child1">Home</a>
+            <a href="#" class="nav-a-child" id="nav-a-child2">Prediction</a>
+		</div>
+    </nav>
+    <content>
+    <section>
+        <div class="magic" data-aos="fade-up">
+            <h1>PLEASE ENTER YOUR NAME TO CONTINUE</h1>
+            <div id="input-div"></div>
+            <form action="./prediction.html" class="wonderful" onsubmit="submitFunction(this)">
+                <label for="main" id="for-main">First Name: </label><input type="password" id="main" oninput="inputFunction(this)" required><br>
+                <button type="submit" id="amazing">GO!</button>
+            </form>
+        </div>
+    </section>
+        <div class="quote">SOME MORE MAGICIANS QUOTES</div>
+        <div class="quotes1 quotes"  data-aos="fade-right">
+            <h1>Quotes No: 1</h1>
+            <p>Magic is something that seems like it goes against how the world works and its us magicians job to be doing that.</p>
+            <address>Jerry Andrus</address>
+        </div>
+        <div class="quotes2 quotes"  data-aos="fade-up">
+            <h1>Quotes No: 2</h1>
+            <p>In magic as always, the effect is what counts. The method or methods used are always purely secondary.</p>
+            <address>Dai Vernon</address>
+        </div>
+        <div class="quotes3 quotes"  data-aos="fade-left">
+            <h1>Quotes No: 3</h1>
+            <p>A magician is not a Magician he knows tricks, not because he knows magic - the principles, the fundamentals.</p>
+            <address>Harian Tarbell</address>
+        </div>
+        <div class="important">IMPORTANCE OF PREDICTION TRICKS</div>
+        <div class="importance">
+            <b>Prediction</b> tricks has a great effect on peoples mind cause it seems impossible to predict the future and we all know that it is true.
+                There are a lot of ways to do prediction tricks and most of the prediction tricks are done by mentalist and close up magicians. Mostly
+                prediction tricks are done with magic props and different magic principles svengali, psychic force and more. Prediction tricks methods are 
+                not that hard and beauty of these tricks lies in the presentation while performing magic. These tricks can be made more awesome using story or 
+                linking tricks with emotions of people.
+        </div>
+    </content>
+    <footer>
+		<div class="footer-fdiv">
+			<p>AWESOME MAGIC</p>
+			<span>In this website you can learn some of the key methods and points to learn various forms of magic in a very fast way possible.
+                 Learn these key points and continue your journey learning magic.
+			Blow people's mind and keep learning and performing magic.</span>
+		</div>
+		<div class="footer-sdiv">
+            <p>Copyright &copy; 2020 - <span id="full-year"></span> All rights reserved. Roshis Rai</p>
+			<span class="footer-span">
+				<a href="./index.html" class="footer-span-a">Home</a><br>
+			    <a href="#" class="footer-span-a">Prediction</a><br>
+			</span>
+		</div>
+	</footer>
+    <script src="./js/scripts.js"></script>
+    <script type="text/javascript">
+    function inputFunction(element){
+        var x=element.value;
+        document.getElementById("input-div").innerHTML = x;
+    }
+    function submitFunction(){
+        var z=document.getElementById("main").value;
+        if( z == "Roshis" ||  z == "roshis"){
+            alert("Hi🖐  Roshis," + " How are you? Good to see you are back here again, Please Click OK To 👁See👁 The Perdiction!!");
+        }else{
+            alert("Hi🖐 " + z + " Thankyou For Entering Your Name Now, Click OK To 👁See👁 The Perdiction!!");
+        }
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400, // offset (in px) from the original trigger point
+          delay: 0, // values from 0 to 3000, with step 50ms
+          duration: 1000 // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+</html>
