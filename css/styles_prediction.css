@@ -562,21 +562,30 @@ footer{
 .footer-fdiv{
     width: 45%;
     height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .footer-fdiv >p{
     font-size: 28px;
-    text-decoration: underline;
+    margin-bottom: 5px;
 }
 .footer-sdiv{
     width: 45%;
     height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .footer-sdiv >p{
     font-size: 22px;
+    margin-bottom: 5px;
 }
 .footer-span-a{
     color: white;
     font-size: 16px;
+    display: inline-block;
+    margin-bottom: 3px;
 }
 .footer-span-a:hover{
     color: orange;
