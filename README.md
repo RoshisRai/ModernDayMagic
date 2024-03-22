@@ -1,9 +1,9 @@
-# ModernDayMagic
+![Website Screenshot](https://raw.githubusercontent.com/RoshisRai/ModernDayMagic/main/img/website-ss.png)
+
+# ModernDayMagic 🪄
 🎩✨ Welcome to the Magic Prediction Website 🌟🔮
 
 This is a static website dedicated to magic enthusiasts who want to learn about modern magic tricks. The website covers various types of magic including classic, street, and closeup magic. It also features quotes from some of the most famous magicians and provides a guide on the process of learning magic.
-
-![Website Screenshot](https://raw.githubusercontent.com/RoshisRai/ModernDayMagic/main/img/website-ss.png)
 
 ## Features
 
@@ -13,7 +13,7 @@ This is a static website dedicated to magic enthusiasts who want to learn about 
 
 ## Usage
 
-To use the website, simply visit [Modern Day Magic](https://roshisrai.github.io/ModernDayMagic/).
+To use the website, simply visit [Modern Day Magic](https://roshisrai.github.io/ModernDayMagic/) 🪄.
 
 ## Contributing
 
